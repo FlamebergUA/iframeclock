@@ -21,7 +21,7 @@ h1 {
 }
 
 .card {
-    padding: 10px 50px 10px 50px;
+    padding: 10px;
     border-radius: 10px;
     background: #3a3a3aa3;
     color: #fff;
@@ -37,8 +37,8 @@ h1 {
 .clock {
     display: inline-block;
     font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    font-size: 2em;
+    /* font-weight: bold; */
+    font-size: 4vw; /* Updated to use vw for responsive font size */
     padding-left: 20px;
 }
 
@@ -48,7 +48,7 @@ h1 {
 }
 
 .colon {
-    font-size: 1.1em;
+    font-size: 4vw; /* Updated to use vw for responsive font size */
     display: inline-block;
 }
 
@@ -58,5 +58,5 @@ h1 {
     padding-right: 30px;
     border-right: 2px solid #fff;
     font-family: 'Roboto', sans-serif;
-    font-size: 2em;
-}
+    font-size: 4vw; /* Updated to use vw for responsive font size */
+} 
